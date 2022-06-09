@@ -1,2 +1,2 @@
 # td-dev.to
-Techies diary dev.to Blog
+Techies diary dev.to blog posts
