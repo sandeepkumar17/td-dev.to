@@ -1,5 +1,9 @@
 [
   {
+    "id": 1081928,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/dotnet-core-api-405-error.md"
+  },
+  {
     "id": 1099683,
     "relativePathToArticle": "./blog-posts/dotnet-6-clean-architecture/dotnet-6-clean-architecture.md"
   },
