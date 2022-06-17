@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'Error 405 : ASP.NET Core Web API PUT and DELETE Methods not allowed'
-cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/net-core.png'
+cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/tips_tricks.png'
 description: 'PUT and DELETE Methods not allowed in ASP.NET Core Web API (405 Error)'
 tags: csharp, dotnet, api, programming
 series:
