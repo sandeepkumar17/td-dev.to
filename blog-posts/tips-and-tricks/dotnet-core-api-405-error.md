@@ -8,10 +8,10 @@ series:
 canonical_url:
 ---
 
-### Reason:
+#### Reason:
 The `WebDAVModule` set PUT and DELETE request methods disabled by default and due to that PUT and DELETE throw 405 errors.
 
-### Solution:
+#### Solution:
 To make the PUT and DELETE requests work, we need to override the `WebDAVModule` setting in `web.config` file by adding the below settings under the `system.webServer`.
 
 ```
@@ -26,7 +26,7 @@ To make the PUT and DELETE requests work, we need to override the `WebDAVModule`
 
 > Also with the latest version of .Net CORE (2.0 and above), there might be a case of no web.config file available at all, if that is your case then add a web.config file on your own.
 
-### NOTE:
+#### Note:
 If you are facing the same issue with multiple APIs hosted on the same server, then either you can add the above entries under `web.config` file of all the affected API’s or you can remove the below entry of `WebDAVModule` from `ApplicationHost.config` file under the module section:
 
 ```
