@@ -10,5 +10,9 @@
   {
     "id": 1109190,
     "relativePathToArticle": "./blog-posts/singleton-design-pattern/singleton-design-pattern.md"
+  },
+  {
+    "id": 1109195,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/sql-language-specific-data-store.md"
   }
 ]
