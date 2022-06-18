@@ -1,7 +1,7 @@
 ---
-published: true
+published: false
 title: 'Dependency Injection pattern and Inversion of Control with C#'
-cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/design-pattern.png'
+cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/blog-posts/dependency-Injection-pattern-and-ioc/assets/dependency_injection.png'
 description: 'Under about Dependency Injection pattern and Inversion of Control and review its implementation in C#'
 tags: csharp, architecture, programming, discuss
 series:
