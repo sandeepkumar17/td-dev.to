@@ -14,5 +14,13 @@
   {
     "id": 1109190,
     "relativePathToArticle": "./blog-posts/singleton-design-pattern/singleton-design-pattern.md"
+  },
+  {
+    "id": 1117635,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/understand-ienumerable-iqueryable-icollection-ilist.md"
+  },
+  {
+    "id": 1117665,
+    "relativePathToArticle": "./blog-posts/dependency-Injection-pattern-and-ioc/dependency-Injection-pattern-and-ioc.md"
   }
 ]
