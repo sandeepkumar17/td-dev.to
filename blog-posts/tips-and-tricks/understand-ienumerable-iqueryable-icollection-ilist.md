@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'C#: Understand about IEnumerable vs. IQueryable vs. ICollection vs. IList'
 cover_image: 'https://github.com/sandeepkumar17/td-dev.to/blob/di-collection-posts/assets/blog-cover/c-sharp.png'
 description: 'Understand about IEnumerable vs. IQueryable vs. ICollection vs. IList and review the differences'
