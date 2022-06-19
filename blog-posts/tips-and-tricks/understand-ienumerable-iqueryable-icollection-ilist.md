@@ -18,7 +18,7 @@ In this article, we’ll understand the interfaces (`IEnumerable`, `IQueryable`,
 - It is a read-only collection and it doesn't support adding or removing items.
 - IEnumerable is best to query data from in-memory collections like List, Array, etc.
 - It mainly implements two methods:
-    - MoveNext`: This method tells whether there are more records to move on or not.
+    - `MoveNext`: This method tells whether there are more records to move on or not.
     - `GetCurrent`: This method returns the current record from the collection.
 - IEnumerable still might use deferred execution and also supports further filtering.
 - IEnumerable does not run query until it is requested by iteration or enumerator.
@@ -41,9 +41,9 @@ In this article, we’ll understand the interfaces (`IEnumerable`, `IQueryable`,
 - It is considered the most basic type for collections and is used to manipulate generic collections.
 - As it implements the `IEnumerable` interface so it also implements methods `MoveNext` and `GetCurrent`, so with this interface you can iterate through the collection.
 - ICollection also has its own methods (apart from `IEnumerable` methods) like:
-    - Add: It adds a record at the end of the collection
-    - Remove: It removes the specified item from the collection
-    - Contains: It’s a boolean type method that tells whether the collection contains the specified item or not.
+    - `Add`: It adds a record at the end of the collection
+    - `Remove`: It removes the specified item from the collection
+    - `Contains`: It’s a boolean type method that tells whether the collection contains the specified item or not.
 - Some collections that limit access to their elements, i.e. Queue or Stack class, directly implement the ICollection interface.
 - ICollection is normally used where we define EF table relationships and we use this in the virtual keyword.
 - ICollection doesn’t support indexing as IList does.
@@ -70,7 +70,7 @@ In this article, we’ll understand the interfaces (`IEnumerable`, `IQueryable`,
   <img src="https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/summary.png" />
 </div>
 
-In this post, I tried to explain some of the basic differences between `IEnumerable`, `IQueryable`, `ICollection`, and `IList` interfaces.
+In this post, we saw some of the basic differences between `IEnumerable`, `IQueryable`, `ICollection`, and `IList` interfaces.
 
 I hope this article will help you to choose a specific interface based on your demand. You can share your feedback, question, or comments about this article.
   
