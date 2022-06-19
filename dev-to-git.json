@@ -16,6 +16,10 @@
     "relativePathToArticle": "./blog-posts/singleton-design-pattern/singleton-design-pattern.md"
   },
   {
+    "id": 1116942,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/sql-language-specific-data-store.md"
+  },
+  {
     "id": 1117635,
     "relativePathToArticle": "./blog-posts/tips-and-tricks/understand-ienumerable-iqueryable-icollection-ilist.md"
   },
