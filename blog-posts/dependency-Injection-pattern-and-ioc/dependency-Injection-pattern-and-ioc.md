@@ -30,7 +30,7 @@ The basic idea behind the Dependency Injection is to have a separate object and 
 - Object dependencies should be an interface not on "concrete" objects.
 - It enables us to manage future changes and other complexity in our application.
 
-There are three basic ways to implement the Dependency Injection:
+**There are three basic ways to implement the Dependency Injection:**
 - Construction Injection
 - Setter Injection
 - Interface Injection.
@@ -51,6 +51,10 @@ Constructor injection uses parameters to inject dependencies. It is most common 
 - If the dependency is used rarely and expensive to create, then we should avoid it passing to constructor and better choose Setter injector.
 
 **Example of Constructor Injection:**
+
+Create the `IDbRepository` interface and then create the `DbRepository` by implementing the `IDbRepository` interface.
+
+{% gist https://gist.github.com/sandeepkumar17/e94de56194ce3eea6d3cb982cc715154 %}
 
 {% gist https://gist.github.com/sandeepkumar17/4873ed9fe86caef2d0829d6988282535 %}
 
@@ -91,10 +95,23 @@ Another way of DI is Interface base Injection. Interface injection allows us to 
 - It improves application testing.
 
 ## DI Frameworks:
-There are a number of DI frameworks available to help the developer. Few of them are mentioned below for usage and further studies: 
-- **Spring Framework:** A large framework which offers a number of other capabilities apart from DI, learn more about this framework [here](http://www.springsource.org/).
-- **PicoContainer:** A small tightly focused DI container framework, [read here](http://picocontainer.com/) for more information.
+There are a number of DI frameworks available to help the developer. Few of them are mentioned below for usage and further studies:
+
+- **[Spring Framework](http://www.springsource.org/):** A large framework which offers a number of other capabilities apart from DI.
+- **PicoContainer:** PicoContainer’s most important feature is its ability to instantiate arbitrary objects. This is done through its API, which is similar to a hash table. You can put java.lang.Class objects in and get object instances back.
+- A small tightly focused DI container framework, [read here](http://picocontainer.com/) for more information.
+- **Spring.NET:** Spring.NET is an open source application framework that makes building enterprise .NET applications easier, [read here](http://www.springframework.net/) for more details.
+- 
 - **HiveMind:** Another DI container framework available for developers, [read here](http://hivemind.apache.org/) for more details.
+- **StructureMap:** StructureMap is the oldest, continuously used IoC/DI container for .Net dating back to its first public release and production usage all the way back in June 2004 on .Net 1.1. The current 4.* release represents 12+ years of lessons learned in the StructureMap and greater .Net community.
+- **Castle Windsor:** Castle Windsor is a best of breed, mature Inversion of Control container available for .NET. Helps you get more done with less code and in less time (but not in the traditional code generator mess that some preach).
+- **Autofac:** Autofac is an addictive Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+, Universal Windows apps, and more. Let Autofac inject your constructor parameters for you. It can also handle property and method injection.
+- **Unity:** The Unity Container (Unity) is a lightweight, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:
+- **Ninject:** Stop writing monolithic applications that make you feel like you have to move mountains to make the simplest of changes. Ninject helps you use the technique of dependency injection to break your applications into loosely-coupled, highly-cohesive components, and then glue them back together in a flexible manner.
+- **DryIoc:** Designed for low-ceremony use, performance, and extensibility.
+- **LinFu:** A framework that adds mixins, inversion of control, DbC, and other language features to the Common Language Runtime.
+- **PicoContainer.NET:** PicoContainer’s most important feature is its ability to instantiate arbitrary objects. This is done through its API, which is similar to a hash table. You can put java.lang.Class objects in and get object instances back.
+- **S2Container.NET:** S2Container.NET is a lightweight DI container supporting AOP. It is a port of Java version Seasar2 to .NET framework.
 
 That’s it for now guys, I hope you have enjoyed learning DI, your feedback and comments will be highly appreciated !!!
 
