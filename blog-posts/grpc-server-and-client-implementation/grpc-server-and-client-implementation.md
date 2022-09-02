@@ -1,7 +1,7 @@
 ---
 published: true
 title: '.NET 6.0 - gRPC Server and Client implementation'
-cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/net-core.png'
+cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/sk-grpc-updates/assets/blog-cover/gprc-dot-net-core.png'
 description: 'Example of 6 gRPC implementation using .NET Core 6.0'
 tags: grpc, csharp, dotnet, programming
 series:
