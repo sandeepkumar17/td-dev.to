@@ -21,7 +21,7 @@ In March 2015, Google decided to build the next version of Stubby and make it op
   - **gRPC Protocol** - As mentioned above it uses HTTP/2 which provides a lot of advantages over traditional Http1.x
   - **Data Serialization** - by default gRPC uses Protobuf for the serialization and as an intermediator between client and server.
 - gRPC clients and servers intercommunicate using a variety of environments and machines.
-- It supports many languages like Java, C#, Go, Ruby and Python, check [the full list here](https://grpc.io/docs/languages/)
+- It supports many languages like Java, C#, Go, Ruby, and Python, check [the full list here](https://grpc.io/docs/languages/)
 - It supports pluggable auth, tracing, load balancing, and health checking.
 
 #### Different scenarios in which we use gRPC
@@ -34,13 +34,13 @@ In March 2015, Google decided to build the next version of Stubby and make it op
   
 **REST** has been one of the highly used API frameworks and with gRPC grabbing the limelight, let's see the comparison on various parameters.
  
- | TEST | REST | gRPC |
- | --- | --- | --- |
- |Protocol|HTTP/1.1|HTTP/2.0|
- |Request-Response Model|Only supports Request Response as based on HTTP/1.1|Supports All Types Of Streaming as based on HTTP/2|
- |Serialization|JSON/XML|protobuf|
- |Payload Format|Serialization like JSON/XML|Strong Typing|
- |Browser Support|Yes|No|
+| |REST|gRPC|
+|:-----|:-----|:-----|
+|Protocol|HTTP/1.1|HTTP/2.0|
+|Request-Response Model|Only supports Request Response as based on HTTP/1.1|Supports All Types Of Streaming as based on HTTP/2|
+|Serialization|JSON/XML|protobuf|
+|Payload Format|Serialization like JSON/XML|Strong Typing|
+|Browser Support|Yes|No|
  
 ## Pros and Cons of gRPC:
 
@@ -70,9 +70,7 @@ In March 2015, Google decided to build the next version of Stubby and make it op
 - Review the default project folder structure.
   - **Protos:** contains all the gRPC server asset files, such as `greet.proto`
   - **Services:** Contains the implementation of the gRPC services.
-  - **Root Folder:**
-    - `appSettings.json` - service configuration file
-    - `Program.cs` - contains the entry point for the gRPC service and code that configures app behavior.
+  - **Root Folder:** `appSettings.json` contains service the configuration and `Program.cs` contains code that configures app behavior.
 ![Folder Structure](./assets/gprc_04.png 'Folder Structure')
  
 - Right-click on the `greet.proto` and click on Properties and verify that gRPC Stub Classes is set to **Server only**.
@@ -138,13 +136,13 @@ Now let's move ahead and set up a new service and client which consumes this new
   app.MapGrpcService<EmployeeService>();
   ```
 
-#### Update client app to consume the employee service:
+#### Update the client app to consume the employee service:
 - Copy the `employee.proto` file from the **GrpcCoreService** and update the namespace:
 
   ```
   option csharp_namespace = "GrpcClientApp";
   ```
-- After that right click on `employee.proto` and click on **Properties** and set the gRPC Stub Classes to **Client only**
+- After that right click on the `employee.proto` and click on **Properties** and set the gRPC Stub Classes to **Client only**
 - And make sure the proto file is added in the **GrpcClientApp.csproj** project file:
 
   ```
@@ -157,7 +155,7 @@ Now let's move ahead and set up a new service and client which consumes this new
 
 {% gist https://gist.github.com/sandeepkumar17/d149eedde66cdc115b3c71cf4c6e8e4e %}
  
-- Once you are done with changes, you can verify the folders and files under the **Solution Explorer**.
+- Once you are done with changes, you can verify the folders and files under **Solution Explorer**.
 ![Project Structure](./assets/gprc_14.png 'Project Structure')
 
 ### Run and Test the new service:
@@ -168,5 +166,5 @@ Now let's move ahead and set up a new service and client which consumes this new
 ## NOTE:
 Check the entire [source code here](https://github.com/sandeepkumar17/GrpcCoreService).
 
-If you have any comments or suggestions, please leave them behind in the comments section below and If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, please go directly to [blog repository](https://github.com/sandeepkumar17/td-dev.to) and open a new pull request with your changes.
+If you have any comments or suggestions, please leave them behind in the comments section below and If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, please go directly to the [blog repository](https://github.com/sandeepkumar17/td-dev.to) and open a new pull request with your changes.
  
