@@ -10,7 +10,7 @@ canonical_url:
 
 In this article, we will learn about clean architecture and will walk you through a sample CRUD API in .NET 6.0.
 
-We will use following tools, technologies, and framework in this sample:
+We will use the following tools, technologies, and frameworks in this sample:
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) and [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 -	[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 -	MS SQL DB
@@ -28,8 +28,8 @@ We will use following tools, technologies, and framework in this sample:
 > The goal of software architecture is to minimize the human resources required to build and maintain the required system. ― Robert C. Martin, Clean Architecture
 
 ## Clean Architecture explained:
-The Clean Architecture is the system architecture guideline proposed by [Robert C. Martin also known as Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html). It is derived from many architectural guidelines such as Hexagonal Architecture, Onion Architecture, etc.
--	The main concept of the clean architecture is that the core logic of the application is changed rarely so it will be independent and considered core.
+Clean Architecture is the system architecture guideline proposed by [Robert C. Martin also known as Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html). It is derived from many architectural guidelines such as Hexagonal Architecture, Onion Architecture, etc.
+-	The main concept of clean architecture is that the core logic of the application is changed rarely so it will be independent and considered core.
 -	The overriding rule that makes this architecture work is The Dependency Rule. This rule says that source code dependencies can only point inwards and nothing in an inner circle can know anything at all about something in an outer circle.
 -	By separating the software into layers, and conforming to The Dependency Rule, you will create an intrinsically testable system, with all the benefits that imply. When any of the external parts of the system become obsolete, like the database, or the web framework, you can replace those obsolete elements with a minimum of fuss.
 -	In clean architecture, the domain and application layers remain in the center of the design which is known as the core of the application.
@@ -44,15 +44,15 @@ The Clean Architecture is the system architecture guideline proposed by [Robert 
 -	Highly maintainable - It is following the separation of concern.
 -	Highly Testable - Apps built using this approach, especially the core domain model and its business rules, are extremely testable.
 
-So now got an understanding of the clean architecture. Before starting the sample API let us briefly review the Dapper.
+So now got an understanding of clean architecture. Before starting the sample API let us briefly review the Dapper.
 
 ## Dapper explained:
--	Dapper is a simple Object Mapper or a Micro-ORM and is responsible for mapping between database and programming language.
--	Dapper was created by the Stack Overflow team to address their issues and open source it. Dapper used at Stack Overflow itself showcases its strength.
+-	Dapper is a simple Object Mapper or a Micro-ORM responsible for mapping between database and programming language.
+-	Dapper was created by the Stack Overflow team to address their issues and open-source it. Dapper used at Stack Overflow itself showcases its strength.
 -	It drastically reduces the database access code and focuses on getting database tasks done instead of being full-on ORM.
 -	It can be integrated with any database such as SQL Server, Oracle, SQLite, MySQL, PostgreSQL, etc.
 -	If DB is already designed, then using Dapper is an optimal and efficient option.
--	Performance: Dapper is faster at querying data compared to the performance of the Entity Framework. This is because Dapper works directly with the RAW SQL and hence the time delay is quite less.
+-	Performance: Dapper is faster at querying data compared to the performance of the Entity Framework. This is because Dapper works directly with the RAW SQL and hence the time delay is relatively less.
 
 Along with Dapper in this article, we will use Repository Pattern and Unit of Work and show you how Dapper can be used in an ASP.NET 6.0 API following Repository Pattern and Unit of Work.
 
