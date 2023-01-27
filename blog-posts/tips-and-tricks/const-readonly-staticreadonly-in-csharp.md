@@ -89,40 +89,6 @@ Here is an example of using const, readonly, and static readonly in C#:
 
 {% gist https://gist.github.com/sandeepkumar17/0f6905c8bd9f7ecc9cfd98d8d096e322 %}
 
-  ```
-  class Example
-  {
-      // Declare a constant field
-      public const int MaxValue = 100;
-
-      // Declare a readonly field
-      public readonly int MinValue;
-
-      // Declare a static readonly field
-      public static readonly double Pi = 3.14159;
-
-      public Example()
-      {
-          // Assign a value to the readonly field in the constructor
-          MinValue = 0;
-      }
-  }
-
-  class Program
-  {
-      static void Main()
-      {
-          Example ex = new Example();
-          // The following line will generate a compile-time error because you cannot change the value of a const field
-          // ex.MaxValue = 200;
-          // The following line will generate a compile-time error because you cannot change the value of a readonly field
-          // ex.MinValue = -100;
-          // The following line will generate a compile-time error because you cannot change the value of a static readonly field
-          // Example.Pi = 3.14;
-      }
-  }
-  ```
-
 > In this example, `MaxValue` is a constant field with a value of 100, which cannot be modified. `MinValue` is a readonly field, which is initialized to 0 in the constructor and cannot be updated later.
 > `Pi` is a static readonly field with a value of 3.14159, which can only be initialized once and cannot be updated later.
 
