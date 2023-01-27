@@ -11,7 +11,7 @@ canonical_url:
 In this article, we’ll see the different ways to hold constant or static values in C#.
 
 ### const:
-In C#, you can declare a const of any type as long as the value assigned can be fully evaluated at compile time. A constant member is defined at compile time and cannot changed at runtime. Constants are declared as a field using the const keyword, and must be initialized along with its declaration as shown below:
+In C#, you can declare a const of any type as long as the value assigned can be fully evaluated at compile time. A constant member is defined at compile time and cannot be changed at runtime. Constants are declared as a field using the const keyword, and must be initialized along with its declaration as shown below:
   ```
   public class TestClass
   {
@@ -37,7 +37,7 @@ In C#, you can declare a const of any type as long as the value assigned can be 
 
 
 ### readonly:
-A `readonly` member is like a constant in that it represents an unchanging value. The difference is that a `readonly` member can be initialized at runtime, in a constructor as well as being able to be initialized as they are declared as shown below.
+A `readonly` member is like a constant in that it represents an unchanging value. The difference is that a `readonly` member can be initialized at runtime, in a constructor as well as able to be initialized as they are declared as shown below.
   ```
   public class TestClass
   {
@@ -64,7 +64,7 @@ A `readonly` member is like a constant in that it represents an unchanging value
 - A `readonly` gives a level of safety higher than const for constants that are subject to change over time. So, things that are truly const (days per week, etc.) can be safely made const because they never, ever change. But things that may be constant now but could conceivably change in the future due to changes in requirement or policy should be made readonly instead, especially if they are visible from other assemblies.
 - Because `readonly` fields are looked up at run-time, they are also slightly less efficient than compile-time const. But this performance gain is negligible and you should choose safety over performance.
 - If your `readonly` field is a value type (primitive or struct) or is immutable (the type that can't be changed once assigned like string), that field will behave like a constant.
-- Use `readonly` when, the constant is a struct, a non-string, non-null class, cannot be determined at compile-time, or the constant is instance-level (instead of static).
+- Use `readonly` when the constant is a struct, a non-string, non-null class, cannot be determined at compile-time, or the constant is instance-level (instead of static).
 - `readonly` is evaluated when the instance is created
 - A `readonly` member can hold a complex object by using the new keyword at initialization.
 - One final thing that makes `readonly` nice is that it can be applied to instance members as well as class (static) members. This means that you can provide a constant that applies to all instances of the class, or just to the current instance.
@@ -84,7 +84,7 @@ A `readonly` member is like a constant in that it represents an unchanging value
 - You do not want to put ThreadStaticAttribute on these (since the static constructor will be executed in one thread only and it will set value for its thread; all other threads will have this value uninitialized)
 - In the `static readonly` case, the containing class is allowed to modify it only in the variable declaration (through a variable initializer) or in the static constructor (instance constructors, if it's not static)
 
-### Example: Showing declaration, usage and explaination:
+### Example: Showing declaration, usage, and explanation:
 Here is an example of using const, readonly, and static readonly in C#:
 
 {% gist https://gist.github.com/sandeepkumar17/0f6905c8bd9f7ecc9cfd98d8d096e322 %}
