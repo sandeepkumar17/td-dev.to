@@ -30,5 +30,9 @@
   {
     "id": 1181264,
     "relativePathToArticle": "./blog-posts/grpc-server-and-client-implementation/grpc-server-and-client-implementation.md"
+  },
+  {
+    "id": 1197974,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/const-readonly-staticreadonly-in-csharp.md"
   }
 ]
