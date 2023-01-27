@@ -16,7 +16,7 @@ gRPC (Google Remote Procedure Calls) was initially created by Google, which has 
 In March 2015, Google decided to build the next version of Stubby and make it open source and the result was gRPC.
 
 - gRPC is a modern open-source high-performance Remote Procedure Call (RPC) framework.
-- It implements APIs using HTTP/2 which can run in any environment
+- It implements APIs using HTTP/2 which can run in any environment.
 - gRPC has two parts
   - **gRPC Protocol** - As mentioned above it uses HTTP/2 which provides a lot of advantages over traditional Http1.x
   - **Data Serialization** - by default gRPC uses Protobuf for the serialization and as an intermediator between client and server.
@@ -45,11 +45,11 @@ In March 2015, Google decided to build the next version of Stubby and make it op
 ## Pros and Cons of gRPC:
 
 **Pros**
-- With duplex communication, it supports bi-directional streaming with HTTP/2-based transport
+- With duplex communication, it supports bi-directional streaming with HTTP/2-based transport.
 - Performance is one of the talking points of gRPC and it is faster than REST and SOAP.
 - gRPC services are highly efficient on wire and with a simple service definition framework.
 - gRPC messages are lightweight compared to other types such as JSON.
-- Client libraries supporting the 11 languages
+- Client libraries supporting the 11 languages.
 
 **Cons**
 - Browser support is very limited.
@@ -153,7 +153,7 @@ Now let's move ahead and set up a new service and client which consumes this new
   ```
 - Finally, update the `Program.cs` file to call the `employee` service.
 
-{% gist https://gist.github.com/sandeepkumar17/d149eedde66cdc115b3c71cf4c6e8e4e %}
+{% gist https://gist.github.com/sandeepkumar17/0a0d6e947989a7d499ddc15ac4fe0e98 %}
  
 - Once you are done with changes, you can verify the folders and files under **Solution Explorer**.
 ![Project Structure](./assets/gprc_14.png 'Project Structure')
