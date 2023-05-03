@@ -34,5 +34,9 @@
   {
     "id": 1197974,
     "relativePathToArticle": "./blog-posts/tips-and-tricks/const-readonly-staticreadonly-in-csharp.md"
+  },
+  {
+    "id": 1455703,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/csharp-12-new-features.md"
   }
 ]
