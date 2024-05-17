@@ -78,3 +78,4 @@ These are some of the examples of how ChatGPT can make a developer's life easy. 
 ## ChatGPT Prompts for Writing Code:
 I have collected the ChatGPT prompts that can make the life of a developer easy as they can leverage the powerful AI-backed ChatGPT more efficiently.
 
+* [Prompts for Writing and Generating Codes](https://dev.to/techiesdiary/chatgpt-prompts-for-writing-and-generating-codes-59kf)
