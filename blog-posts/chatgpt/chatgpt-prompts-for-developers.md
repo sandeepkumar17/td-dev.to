@@ -8,8 +8,6 @@ series:
 canonical_url:
 ---
 
-I have collected the ChatGPT prompts that can make the life of a developer easy as they can leverage the powerful AI-backed ChatGPT more efficiently.
-
 ## Understand the ChatGPT:
 ChatGPT is an artificial intelligence (AI) chatbot that uses natural language processing to create humanlike conversational dialogue. The language model can respond to questions and compose various written content, including articles, social media posts, essays, code, and emails, making it an exciting tool for programmers at every level.
 
@@ -41,7 +39,7 @@ ChatGPT, an advanced language model can help developers in multiple ways in thei
 > Prompt: "Here's a C# code snippet. The function is supposed to return the maximum value from the given list, but it's not returning the expected output. Can you identify the problem?".
 > INSERT YOUR CODE HERE
 
-**4. Adding Coding Best Practices or Principles:** ChatGPT helps you to rewrite the code according to style guidelines.
+**4. Adding Coding Best Practices or Principles:** ChatGPT helps you rewrite the code according to style guidelines.
 
 > Rewrite the code below following the Google style guidelines for JavaScript.
 > INSERT YOUR CODE HERE
@@ -78,5 +76,5 @@ ChatGPT, an advanced language model can help developers in multiple ways in thei
 These are some of the examples of how ChatGPT can make a developer's life easy. Besides that, ChatGPT can also help with learning new concepts, understanding design patterns, code refactoring, brainstorming ideas, interview preparations, and much more.
 
 ## ChatGPT Prompts for Writing Code:
-
+I have collected the ChatGPT prompts that can make the life of a developer easy as they can leverage the powerful AI-backed ChatGPT more efficiently.
 
