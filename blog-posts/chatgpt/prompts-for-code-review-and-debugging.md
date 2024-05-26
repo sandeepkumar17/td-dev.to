@@ -1,8 +1,8 @@
 ---
 published: true
-title: 'ChatGPT - Prompts for Writing and Generating Codes'
+title: 'ChatGPT - Prompts for Code Review and Debugging'
 cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/open-ai-chat-gpt.jpg'
-description: 'Discover the various ChatGPT Prompts for developers'
+description: 'Discover the various ChatGPT Prompts for Code Review and Debugging'
 tags: chatgpt, promptengineering, ai, programming
 series:
 canonical_url:
