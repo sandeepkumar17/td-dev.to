@@ -31,6 +31,7 @@ Prompt Example:
 ```
 "Write a C# function to calculate the sum of the 2 given numbers."
 ```
+> #### Explore 60 Prompts for [Writing and Generating Codes](https://dev.to/techiesdiary/chatgpt-prompts-for-writing-and-generating-codes-59kf)
 
 **2. Refactor Code:** With ChatGPT's help, you can refactor the code to enhance code efficiency, reduce errors, and make it easier to modify or extend in the future. 
 
@@ -47,6 +48,7 @@ Prompt Example:
 "Here's a C# code snippet. The function is supposed to return the maximum value from the given list, but it's not returning the expected output. Can you identify the problem?".
 INSERT YOUR CODE HERE
 ```
+> #### Explore 40 Prompts for [Code Review and Debugging](https://dev.to/techiesdiary/chatgpt-prompts-for-code-review-and-debugging-48j)
 
 **4. Adding Coding Best Practices or Principles:** ChatGPT helps you rewrite the code according to style guidelines.
 
@@ -104,9 +106,3 @@ REQUEST
 ```
 
 These are some of the examples of how ChatGPT can make a developer's life easy. Besides that, ChatGPT can also help with learning new concepts, understanding design patterns, code refactoring, brainstorming ideas, interview preparations, and much more.
-
-## ChatGPT Prompts for Writing Code:
-I have collected the ChatGPT prompts that can make the life of a developer easy as they can leverage the powerful AI-backed ChatGPT more efficiently.
-
-* [Prompts for Writing and Generating Codes](https://dev.to/techiesdiary/chatgpt-prompts-for-writing-and-generating-codes-59kf)
-* [Prompts for Code Review and Debugging](https://dev.to/techiesdiary/chatgpt-prompts-for-code-review-and-debugging-48j)
