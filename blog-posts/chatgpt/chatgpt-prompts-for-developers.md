@@ -40,6 +40,7 @@ Prompt Example:
 I have a piece of code and I need you to refactor it:
 INSERT YOUR CODE HERE
 ```
+> #### Explore 35 Prompts related to [Code Refactoring](https://dev.to/techiesdiary/chatgpt-prompts-for-code-refactoring-1bc7)
 
 **3. Code Review & Debugging:** You can use ChatGPT to review the code snippet and share potential issues or bugs.
 
