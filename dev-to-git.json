@@ -50,5 +50,9 @@
   {
     "id": 1865817,
     "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-review-and-debugging.md"
+  },
+  {
+    "id": 1869412,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-refactoring.md"
   }
 ]
