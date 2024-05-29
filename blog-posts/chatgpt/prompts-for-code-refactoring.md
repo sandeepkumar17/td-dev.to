@@ -3,7 +3,7 @@ published: true
 title: 'ChatGPT - Prompts for Code Refactoring'
 cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/open-ai-chat-gpt.jpg'
 description: 'Discover the various ChatGPT Prompts for Code Refactoring'
-tags: chatgpt, promptengineering, ai, programming
+tags: chatgpt, promptengineering, ai, refactoring
 series:
 canonical_url:
 ---
