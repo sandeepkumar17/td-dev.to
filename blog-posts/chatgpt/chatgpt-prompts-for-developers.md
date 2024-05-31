@@ -59,6 +59,8 @@ Rewrite the code below following the Google style guidelines for JavaScript.
 INSERT YOUR CODE HERE
 ```
 
+> #### Explore 50 Prompts related to [Coding Best Practices and Principles](https://dev.to/techiesdiary/chatgpt-prompts-for-coding-best-practices-or-principles-33m)
+
 **5. Explaining Code:** ChatGPT can help explain the workings of old and complex code snippets. To get an explanation of a specific piece of code, provide the code snippet, and ask for it.
 
 Prompt Example: 
