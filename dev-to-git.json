@@ -54,5 +54,9 @@
   {
     "id": 1869412,
     "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-refactoring.md"
+  },
+  {
+    "id": 1872001,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-coding-best-practices-or-Principles.md"
   }
 ]
