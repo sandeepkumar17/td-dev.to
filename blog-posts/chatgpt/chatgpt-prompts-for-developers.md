@@ -25,11 +25,11 @@ When crafting a prompt,
 ## How ChatGPT can help Developers:
 ChatGPT, an advanced language model can help developers in multiple ways in their coding journey. Let’s explore some of them.
 
-**1. Writing Code:** Using ChatGPT, you can generate code based on specific descriptions. For example, if you require a C# function to calculate some of the 2 numbers. You can prompt ChatGPT as shown below and it will return the appropriate code.
+**1. Writing Code:** Using ChatGPT, you can generate code based on specific descriptions. For example, if you require a C# function to calculate some of the 2 numbers. You can prompt ChatGPT as shown below, which will return the appropriate code.
 
 Prompt Example: 
 ```
-"Write a C# function to calculate the sum of the 2 given numbers."
+Write a C# function to find the factorial of a given number.
 ```
 > #### Explore 60 Prompts for [Writing and Generating Codes](https://dev.to/techiesdiary/chatgpt-prompts-for-writing-and-generating-codes-59kf)
 
@@ -37,8 +37,8 @@ Prompt Example:
 
 Prompt Example: 
 ```
-I have a piece of code and I need you to refactor it:
-INSERT YOUR CODE HERE
+Suggest a refactor for this code to improve its performance:
+[Enter your code here]
 ```
 > #### Explore 35 Prompts related to [Code Refactoring](https://dev.to/techiesdiary/chatgpt-prompts-for-code-refactoring-48d2)
 
@@ -46,8 +46,8 @@ INSERT YOUR CODE HERE
 
 Prompt Example: 
 ```
-"Here's a C# code snippet. The function is supposed to return the maximum value from the given list, but it's not returning the expected output. Can you identify the problem?".
-INSERT YOUR CODE HERE
+Here's a C# code snippet. The function is supposed to return the maximum value from the given list, but it's not returning the expected output. Can you identify the problem?
+[Enter your code here]
 ```
 > #### Explore 40 Prompts for [Code Review and Debugging](https://dev.to/techiesdiary/chatgpt-prompts-for-code-review-and-debugging-48j)
 
@@ -56,7 +56,7 @@ INSERT YOUR CODE HERE
 Prompt Example: 
 ```
 Rewrite the code below following the Google style guidelines for JavaScript.
-INSERT YOUR CODE HERE
+[Enter your code here]
 ```
 
 > #### Explore 50 Prompts related to [Coding Best Practices and Principles](https://dev.to/techiesdiary/chatgpt-prompts-for-coding-best-practices-or-principles-33m)
@@ -65,16 +65,16 @@ INSERT YOUR CODE HERE
 
 Prompt Example: 
 ```
-"Could you please explain how this C# function works?".
-INSERT YOUR CODE HERE
+Could you please explain how this C# function works?
+[Enter your code here]
 ```
 
-**6. Optimizing Code:** ChatGPT can help in optimizing the code to enhance performance or readability and make your code lean and efficient.
+**6. Optimizing Code:** ChatGPT can help optimize the code to enhance performance or readability and make your code lean and efficient.
 
 Prompt Example: 
 ```
-"Here’s a function I wrote in JavaScript that prints first n Fibonacci Numbers. Could you suggest any optimizations for better performance?"
-INSERT YOUR CODE HERE
+Here’s a function I wrote in JavaScript that prints first n Fibonacci Numbers. Could you suggest any optimizations for better performance?
+[Enter your code here]
 ```
 
 **7. Create Unit Tests:** You can use ChatGPT to automate the unit testing by writing test cases for you.
@@ -82,7 +82,7 @@ INSERT YOUR CODE HERE
 Prompt Example: 
 ```
 Please write unit tests for the following code.
-INSERT YOUR CODE HERE
+[Enter your code here]
 ```
 
 **8. Add code comments:** If your code is self-explanatory but requires commenting, ChatGPT can do it for you in no time.
@@ -90,22 +90,21 @@ INSERT YOUR CODE HERE
 Prompt Example: 
 ```
 Add comments to the following code:
-INSERT YOUR CODE HERE
+[Enter your code here]
 ```
 
 **9. Create Boilerplate Code:** ChatGPT can help you generate the boilerplate code.
 
 Prompt Example: 
 ```
-Write a boilerplate JavaScript function that will take a variable of type User, and validate whether the user has the right permissions or not.
+I'm trying to implement a simple search functionality in JavaScript. Could you provide me with a boilerplate code to get started?
 ```
 
 **10. Create a Regular Expression:** Regular expressions help us to match, locate, and manage text, providing a quick and relatively easy way to manipulate data, particularly in large complex programs and ChatGPT can help us in writing these RegEx.
 
 Prompt Example: 
 ```
-Write a regular expression that matches:
-REQUEST
+Can you provide an example of using regular expressions to find and replace text?
 ```
 
 These are some of the examples of how ChatGPT can make a developer's life easy. Besides that, ChatGPT can also help with learning new concepts, understanding design patterns, code refactoring, brainstorming ideas, interview preparations, and much more.
