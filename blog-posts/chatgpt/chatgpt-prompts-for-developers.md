@@ -68,6 +68,7 @@ Prompt Example:
 Could you please explain how this C# function works?
 [Enter your code here]
 ```
+> #### Explore 25 Prompts related to [Code Explaining](https://dev.to/techiesdiary/chatgpt-prompts-for-explaining-code-c2g)
 
 **6. Optimizing Code:** ChatGPT can help optimize the code to enhance performance or readability and make your code lean and efficient.
 
@@ -76,6 +77,7 @@ Prompt Example:
 Here’s a function I wrote in JavaScript that prints first n Fibonacci Numbers. Could you suggest any optimizations for better performance?
 [Enter your code here]
 ```
+> #### Explore 25 Prompts related to [Code Optimization](https://dev.to/techiesdiary/chatgpt-prompts-for-optimizing-code-3kkg)
 
 **7. Create Unit Tests:** You can use ChatGPT to automate the unit testing by writing test cases for you.
 
