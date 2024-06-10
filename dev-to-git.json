@@ -58,5 +58,13 @@
   {
     "id": 1872001,
     "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-coding-best-practices-or-Principles.md"
+  },
+  {
+    "id": 1883012,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-explaining-code.md"
+  },
+  {
+    "id": 1883014,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-optimizing-code.md"
   }
 ]
