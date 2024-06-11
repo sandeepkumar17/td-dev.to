@@ -39,12 +39,12 @@ Clean Architecture is the system architecture guideline proposed by [Robert C. M
 
 **Advantages of clean architecture:**
 -	Frameworks Independent - The architecture does not depend on the existence of some library of feature-laden software. This allows you to use such frameworks as tools.
--	UI Independent - It is loosely coupled with the UI layer. So, you can change UI without changing the core business.
+-	UI Independent - It is loosely coupled with the UI layer. So, you can change the UI without changing the core business.
 -	Independent of Database - You can swap out SQL Server or Oracle, for Mongo, Bigtable, CouchDB, or something else. Your business rules are not bound to the database.
--	Highly maintainable - It is following the separation of concern.
+-	Highly maintainable - It follows the separation of concern.
 -	Highly Testable - Apps built using this approach, especially the core domain model and its business rules, are extremely testable.
 
-So now got an understanding of clean architecture. Before starting the sample API let us briefly review the Dapper.
+So now we have an understanding of clean architecture. Before starting the sample API let us briefly review the Dapper.
 
 ## Dapper explained:
 -	Dapper is a simple Object Mapper or a Micro-ORM responsible for mapping between database and programming language.
@@ -70,7 +70,7 @@ Once our back end is ready, Open Visual Studio 2022 and create a blank solution 
 
 {% gist https://gist.github.com/sandeepkumar17/25e8ebdff8ff5b22407ee4b7bf401f77 %}
 
-> One thing to note down here is, The Core layer should not depend on any other Project or Layer. This is very important while working with Clean Architecture.
+> One thing to note down here is that the Core layer should not depend on any other Project or Layer. This is very important while working with Clean Architecture.
 
 **Set Up Application Layer:** Add another Class Library Project and name it `CleanArch.Application`.
 
@@ -87,7 +87,7 @@ Once our back end is ready, Open Visual Studio 2022 and create a blank solution 
 
 {% gist https://gist.github.com/sandeepkumar17/0e3ded0885783eaeb7c1f558ca87c0c9 %}
 
-- As we are also implementing the logging, so add a `ILogger` interface and add methods for different log levels.
+- As we are also implementing the logging, so add an `ILogger` interface and add methods for different log levels.
 
 {% gist https://gist.github.com/sandeepkumar17/a0d3a5a402b2a550f8e42d4bcc75ce02 %}
 
@@ -95,7 +95,7 @@ Once our back end is ready, Open Visual Studio 2022 and create a blank solution 
 
 ![CleanArch Logging](./assets/ca_04.png 'CleanArch Logging')
 
--	We will be using the Log4Net library for logging, hence install the `log4net` package from the Nuget Package Manager.
+-	We will be using the Log4Net library for logging, hence install the `log4net` package from the NuGet Package Manager.
 -	Add a reference to the `Application` project and after that add a new class `Logger` and implement the `ILogger` interface.
 
 {% gist https://gist.github.com/sandeepkumar17/10abb4e1dae0810119bc236aebb1c46d %}
@@ -108,7 +108,7 @@ Once our back end is ready, Open Visual Studio 2022 and create a blank solution 
 
 {% gist https://gist.github.com/sandeepkumar17/ec3760c7465bbe9d67f8d0d2004325c6 %}
 
--	Besides that, `Scripts` folder is added that contains prerequisite scripts of table used in the sample.
+-	Besides that, the `Scripts` folder is added that contains prerequisite scripts of the table used in the sample.
 
 **Set Up Infrastructure Layer:** Since our base code is ready, now add a new Class Library Project and name it `CleanArch.Infrastructure`.
 
@@ -141,11 +141,11 @@ Install-Package System.Data.SqlClient
 ![CleanArch API 02](./assets/ca_08.png 'CleanArch API 02')
 
 -	Add the reference to projects (`Application`, `Infrastructure`, and `Logging`), and add the `Swashbuckle.AspNetCore` package.
--	Set up the `appsettings.json` file to manage the API settings and replace your DB connection string under `ConnectionStrings` section.
+-	Set up the `appsettings.json` file to manage the API settings and replace your DB connection string under the `ConnectionStrings` section.
 
 {% gist https://gist.github.com/sandeepkumar17/d566650743976e34f39b9533ff9fdc30 %}
 
-- Add log4net.config and add logging related settings under it. Make sure to set its `Copy to Output Directory` property to `Copy Always`.
+- Add log4net.config and add logging-related settings under it. Make sure to set its `Copy to Output Directory` property to `Copy Always`.
 
 {% gist https://gist.github.com/sandeepkumar17/06b49b1404314df6fecd50a1e1575b80 %}
 
@@ -186,7 +186,7 @@ Install-Package Moq
 ```
 ![CleanArch Test](./assets/ca_09.png 'CleanArch Test')
 
-- After that create a new class `ContactControllerShould` and set up all the possible test cases, review the code of `CleanArch.Test` project for further understanding.
+- After that create a new class `ContactControllerShould` and set up all the possible test cases, review the code of the `CleanArch.Test` project for further understanding.
 
 - Review the project structure in the solution explorer.
 ![Project Structure](./assets/ca_10.png 'Project Structure')
@@ -201,7 +201,7 @@ Run the project and test all the CRUD API methods. (Make sure `CleanArch.Api` is
 - Swagger UI
 ![Swagger UI](./assets/ca_12.png 'Swagger UI')
 
-- Running API without authentication throws error.
+- Running API without authentication throws an error.
 ![API Error](./assets/ca_13.png 'API Error')
 
 - Add API Authorization.
@@ -225,4 +225,4 @@ Run the project and test all the CRUD API methods. (Make sure `CleanArch.Api` is
 ## NOTE:
 Check the entire [source code here](https://github.com/sandeepkumar17/CleanArch).
 
-If you have any comments or suggestions, please leave them behind in the comments section below and If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, please go directly to [blog repository](https://github.com/sandeepkumar17/td-dev.to) and open a new pull request with your changes.
+If you have any comments or suggestions, please leave them behind in the comments section below and If you've found a typo, a sentence that could be improved, or anything else that should be updated on this blog post, please go directly to [blog repository](https://github.com/sandeepkumar17/td-dev.to) and open a new pull request with your changes.
