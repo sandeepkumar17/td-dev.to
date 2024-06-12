@@ -66,5 +66,9 @@
   {
     "id": 1883014,
     "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-optimizing-code.md"
+  },
+  {
+    "id": 1885446,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-tdd-and-unit-testing.md"
   }
 ]
