@@ -86,6 +86,7 @@ Prompt Example:
 Please write unit tests for the following code.
 [Enter your code here]
 ```
+> #### Explore 50 Prompts related to [Test Drive Development and Unit Testing](https://dev.to/techiesdiary/chatgpt-prompts-for-test-drive-development-and-unit-testing-834)
 
 **8. Add code comments:** If your code is self-explanatory but requires commenting, ChatGPT can do it for you in no time.
 
