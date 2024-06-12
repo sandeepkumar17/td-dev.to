@@ -225,4 +225,4 @@ Run the project and test all the CRUD API methods. (Make sure `CleanArch.Api` is
 ## NOTE:
 Check the entire [source code here](https://github.com/sandeepkumar17/CleanArch).
 
-If you have any comments or suggestions, please leave them behind in the comments section below and If you've found a typo, a sentence that could be improved, or anything else that should be updated on this blog post, please go directly to [blog repository](https://github.com/sandeepkumar17/td-dev.to) and open a new pull request with your changes.
+If you have any comments or suggestions, please leave them behind in the comments section below.
