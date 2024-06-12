@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1081922,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/foreign-key-reference-already-hasvalue-exception.md"
+  },
+  {
+    "id": 1081928,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/dotnet-core-api-405-error.md"
+  },
+  {
+    "id": 1099683,
+    "relativePathToArticle": "./blog-posts/dotnet-6-clean-architecture/dotnet-6-clean-architecture.md"
+  },
+  {
+    "id": 1109190,
+    "relativePathToArticle": "./blog-posts/singleton-design-pattern/singleton-design-pattern.md"
+  },
+  {
+    "id": 1116942,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/sql-language-specific-data-store.md"
+  },
+  {
+    "id": 1117635,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/understand-ienumerable-iqueryable-icollection-ilist.md"
+  },
+  {
+    "id": 1117665,
+    "relativePathToArticle": "./blog-posts/dependency-Injection-pattern-and-ioc/dependency-Injection-pattern-and-ioc.md"
+  },
+  {
+    "id": 1181264,
+    "relativePathToArticle": "./blog-posts/grpc-server-and-client-implementation/grpc-server-and-client-implementation.md"
+  },
+  {
+    "id": 1197974,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/const-readonly-staticreadonly-in-csharp.md"
+  },
+  {
+    "id": 1455703,
+    "relativePathToArticle": "./blog-posts/tips-and-tricks/csharp-12-new-features.md"
+  },
+  {
+    "id": 1856231,
+    "relativePathToArticle": "./blog-posts/chatgpt/chatgpt-prompts-for-developers.md"
+  },
+  {
+    "id": 1856738,
+    "relativePathToArticle": "./blog-posts/chatgpt/chatgpt-prompts-for-writing-and-generating-codes.md"
+  },
+  {
+    "id": 1865817,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-review-and-debugging.md"
+  },
+  {
+    "id": 1869412,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-refactoring.md"
+  },
+  {
+    "id": 1872001,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-coding-best-practices-or-Principles.md"
+  },
+  {
+    "id": 1883012,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-explaining-code.md"
+  },
+  {
+    "id": 1883014,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-optimizing-code.md"
+  },
+  {
+    "id": 1885446,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-tdd-and-unit-testing.md"
+  }
+]
