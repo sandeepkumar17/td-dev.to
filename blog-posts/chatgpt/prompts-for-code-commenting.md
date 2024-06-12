@@ -20,7 +20,7 @@ Code commenting is important for several reasons:
 
 > In summary, code commenting is important because it improves code readability, facilitates collaboration, documents functionality, assists in debugging, enforces coding standards, and supports code documentation efforts.
 
-## ChatGPT Prompts for Test Drive Development:
+## ChatGPT Prompts for Code Commenting:
 
 |  | Prompt |
 | --- | --- |
