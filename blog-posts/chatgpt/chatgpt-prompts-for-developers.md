@@ -95,6 +95,7 @@ Prompt Example:
 Add comments to the following code:
 [Enter your code here]
 ```
+> #### Explore 15 Prompts related to [Code Commenting](https://dev.to/techiesdiary/chatgpt-prompts-for-adding-code-comments-5cod)
 
 **9. Create Boilerplate Code:** ChatGPT can help you generate the boilerplate code.
 
@@ -102,6 +103,7 @@ Prompt Example:
 ```
 I'm trying to implement a simple search functionality in JavaScript. Could you provide me with a boilerplate code to get started?
 ```
+> #### Explore 15 Prompts related to [Boilerplate Code Generation](https://dev.to/techiesdiary/chatgpt-prompts-to-create-boilerplate-code-3cic)
 
 **10. Create a Regular Expression:** Regular expressions help us to match, locate, and manage text, providing a quick and relatively easy way to manipulate data, particularly in large complex programs and ChatGPT can help us in writing these RegEx.
 
@@ -109,5 +111,6 @@ Prompt Example:
 ```
 Can you provide an example of using regular expressions to find and replace text?
 ```
+> #### Explore 20 Prompts related to [Regular Expression](https://dev.to/techiesdiary/chatgpt-prompts-to-create-regular-expression-10pn)
 
 These are some of the examples of how ChatGPT can make a developer's life easy. Besides that, ChatGPT can also help with learning new concepts, understanding design patterns, code refactoring, brainstorming ideas, interview preparations, and much more.
