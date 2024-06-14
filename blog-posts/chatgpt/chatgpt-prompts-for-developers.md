@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'ChatGPT - Prompts for developers'
-cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/open-ai-chat-gpt.jpg'
+cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/chat-gpt-prompts.jpg'
 description: 'Discover the various ChatGPT Prompts for developers'
 tags: chatgpt, promptengineering, ai, programming
 series:
