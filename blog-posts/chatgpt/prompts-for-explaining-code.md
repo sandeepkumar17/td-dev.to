@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'ChatGPT - Prompts for Explaining Code'
-cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/open-ai-chat-gpt.jpg'
+cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/chat-gpt-prompts.jpg'
 description: 'Discover the various ChatGPT Prompts for Explaining Code snippets'
 tags: chatgpt, promptengineering, ai, programming
 series:
