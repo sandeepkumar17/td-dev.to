@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'ChatGPT - Prompts to Create Regular Expression'
-cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/open-ai-chat-gpt.jpg'
+cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/chat-gpt-prompts.jpg'
 description: 'Discover the various ChatGPT Prompts to Create Regular Expression'
 tags: chatgpt, promptengineering, ai, regex
 series:
