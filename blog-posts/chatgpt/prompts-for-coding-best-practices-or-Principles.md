@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'ChatGPT - Prompts for Coding Best Practices or Principles'
-cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/open-ai-chat-gpt.jpg'
+cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/chat-gpt-prompts.jpg'
 description: 'Discover the various ChatGPT Prompts for Coding Best Practices or Principles'
 tags: chatgpt, promptengineering, ai, programming
 series:
