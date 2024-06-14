@@ -4,6 +4,34 @@
     "relativePathToArticle": "./blog-posts/chatgpt/chatgpt-prompts-for-developers.md"
   },
   {
+    "id": 1856738,
+    "relativePathToArticle": "./blog-posts/chatgpt/chatgpt-prompts-for-writing-and-generating-codes.md"
+  },
+  {
+    "id": 1865817,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-review-and-debugging.md"
+  },
+  {
+    "id": 1869412,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-refactoring.md"
+  },
+  {
+    "id": 1872001,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-coding-best-practices-or-Principles.md"
+  },
+  {
+    "id": 1883012,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-explaining-code.md"
+  },
+  {
+    "id": 1883014,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-optimizing-code.md"
+  },
+  {
+    "id": 1885446,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-tdd-and-unit-testing.md"
+  },
+  {
     "id": 1886808,
     "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-commenting.md"
   },
