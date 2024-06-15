@@ -119,7 +119,7 @@ In March 2015, Google decided to build the next version of Stubby and make it op
 ### Setup new service and client:
 So far we have tested the default greeter service and client. 
 
-Now let's move ahead and set up a new service and client which consumes this new service.
+Now let's move ahead and set up a new service and client that consumes this new service.
 
 #### Setup employee service:
 - To start with add the `employee.proto` file under the `Protos` folder and add the following code.
@@ -164,7 +164,7 @@ Now let's move ahead and set up a new service and client which consumes this new
 ![Employee Output 02](./assets/gprc_15.png 'Employee Output 02')
 
 ## NOTE:
-Check the entire [source code here](https://github.com/sandeepkumar17/GrpcCoreService).
+Check the source code here.
+{% github https://github.com/sandeepkumar17/GrpcCoreService %}
 
-If you have any comments or suggestions, please leave them behind in the comments section below and If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, please go directly to the [blog repository](https://github.com/sandeepkumar17/td-dev.to) and open a new pull request with your changes.
- 
+If you have any comments or suggestions, please leave them behind in the comments section below.
