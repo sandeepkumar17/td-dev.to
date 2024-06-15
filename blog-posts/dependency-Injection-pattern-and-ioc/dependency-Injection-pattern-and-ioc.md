@@ -24,7 +24,7 @@ The basic idea behind the Dependency Injection is to have a separate object and 
 - It is also known as Inversion of Control (IOC) container.
 - It can help you design your applications so that the architecture links the components rather than the components linking themselves.
 - IOC provides a great way to reduce tight coupling between software components.
-- The basic idea behind DI is design must be loosely coupled, loosely coupled means that objects should have only those dependencies which are required to complete their task, and the number of dependencies must be fewer.
+- The basic idea behind DI is design must be loosely coupled, loosely coupled means that objects should have only those dependencies that are required to complete their task, and the number of dependencies must be fewer.
 - Loose coupling offers us greater reusability and testability.
 - With the help of DI, we can achieve code maintainability.
 - Object dependencies should be on the interface and not on "concrete" objects.
@@ -64,7 +64,7 @@ Post that creates an object of `IDbRepository` interface and uses it inside the 
 It is also known as Property Injection. In this, we do not need to pass the dependency through the constructor but dependencies are passed through public properties that are exposed.  
 
 **Advantages of Setter Injection:**
-- It allows us to create dependency on expensive resources and with this, we can create dependency as late as possible and only when we needed it.
+- It allows us to create dependency on expensive resources and with this, we can create dependency as late as possible and only when we need it.
 - Setter Injection allows us to create dependencies for legacy classes without modifying the constructor and related constructor calls.
 
 **Disadvantages of Setter Injection:**
@@ -83,8 +83,8 @@ Another way of DI is Interface base Injection. Interface injection allows us to 
 **Interface Injection Components:**
 - `IDependent` interface: It defines the methods that inject one or more dependencies into the dependent class.
 - `Dependent` Class: This class implements the `IDependent` interface.
-- `IDependency` interface: It includes all dependency members that can be called from the `Dependent` class. By mean of the `IDependency` interface, we can easily inject any of the class that implements the `IDependency` interface.
-- `Dependency` Class: This class implements the `IDependency` interface and use to substitute into a dependent class using Interface injection.
+- `IDependency` interface: It includes all dependency members that can be called from the `Dependent` class.
+- `Dependency` Class: This class implements the `IDependency` interface and is used to substitute into a dependent class using Interface injection.
 
 **Example of Interface Injection:**
 
@@ -103,7 +103,7 @@ There are several DI frameworks available to help the developer. A few of them a
 - **[Spring.NET](https://www.springframework.net/):** Spring.NET is an open-source application framework that makes building  enterprise .NET applications easier. Spring helps increase development productivity and improve application quality and performance.
 - **[Autofac](https://autofac.org/):** Autofac is an addictive Inversion of Control container for .NET Core, ASP.NET Core, .NET 4.5.1+, Universal Windows apps, and more.
 - **[Castle Windsor](https://github.com/castleproject/Windsor):** Castle Windsor is a best of breed, mature Inversion of Control container available for .NET.
-- **[Ninject](https://github.com/ninject/ninject):** Ninject is a lightning-fast, ultra-lightweight dependency injector for .NET applications. It helps you split your application into a collection of loosely-coupled, highly-cohesive pieces, and then glue them back together in a flexible manner.
+- **[Ninject](https://github.com/ninject/ninject):** Ninject is a lightning-fast, ultra-lightweight dependency injector for .NET applications. It helps you split your application into a collection of loosely coupled, highly cohesive pieces, and then glue them back together in a flexible manner.
 - **[Unity](http://unitycontainer.org/articles/introduction.html):** Unity Container is a full-featured, general-purpose IoC container for use in any type of .NET application. It is Open Source and released under Apache 2.0 license. However, this project is archived now and no longer be maintained, [check here for more details](https://github.com/unitycontainer/unity).
 
 That’s it for now guys, I hope you have enjoyed learning DI, your feedback and comments will be highly appreciated !!!
