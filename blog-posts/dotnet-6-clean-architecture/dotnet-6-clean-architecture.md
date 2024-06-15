@@ -223,6 +223,7 @@ Run the project and test all the CRUD API methods. (Make sure `CleanArch.Api` is
 ![API Delete](./assets/ca_19.png 'API Delete')
 
 ## NOTE:
-Check the entire [source code here](https://github.com/sandeepkumar17/CleanArch).
+Check the source code here.
+{% github https://github.com/sandeepkumar17/CleanArch %}
 
 If you have any comments or suggestions, please leave them behind in the comments section below.
