@@ -15,10 +15,10 @@ Singleton classes don't allow any parameters to be specified when creating the i
 > In this article, I'll provide you with a real-time example, a Comparison of Singleton with Static class, a UML class diagram of Singleton, and then the implementation of Singleton in various ways.
 
 ### Real-time example:
-The practical implementation of the Singleton design pattern can be seen in various applications used by us. Take the example of Microsoft word, there is only one instance of the word application active at a time even though the user opened multiple documents at a time. And all the requests for different word documents are handled by a single instance.
+The practical implementation of the Singleton design pattern can be seen in various applications used by us. Take the example of Microsoft Word, there is only one instance of the word application active at a time even though the user opened multiple documents at a time. All the requests for different Word documents are handled by a single instance.
 
 ### Singleton versus Static Class:
-Singletons and Static classes both provide sharing of redundant objects in memory, but they differ in usage and implementation. Mentioned below are some points one should consider before making a decision:
+Singletons and Static classes both provide the sharing of redundant objects in memory, but they differ in usage and implementation. Mentioned below are some points one should consider before making a decision:
 - Singletons preserve the conventional class approach and don't require that you use the static keyword everywhere, while static class requires all members should be static.
 - Singleton may be more demanding to implement at first, but will greatly simplify the architecture of your application as compared to static class.
 - Singleton requires a single private and parameter-less constructor, while a static class can only have a static constructor.
@@ -27,7 +27,7 @@ Singletons and Static classes both provide sharing of redundant objects in memor
 - Singleton object is created lazily, i.e. the instance isn't created until it is first needed. On the other hand, the static class is loaded into memory as soon as the application is initialized.
 
 ### UML class diagram
-UML class diagram for the Singleton pattern is given below.
+The UML class diagram for the Singleton pattern is given below.
 
 ![Singleton UML](./assets/singleton_UML.png 'Singleton UML')
 
@@ -45,7 +45,7 @@ It is not thread-safe, i.e. two different threads may create two instances.
 
 **Singleton with simple thread safety:**
 
-In this implementation, the lock is added to make Singleton thread-safe. In this case, the thread takes out a lock and then checks if the instance already exists or not before creating the new instance. This ensures that only one thread will create an instance as only one thread can be in that part of the code at a time - by the time another thread enters, the first thread will have created the instance. But there is a performance overhead as a lock is acquired every time the instance is requested.
+In this implementation, the lock is added to make Singleton thread-safe. In this case, the thread takes out a lock and then checks if the instance already exists or not before creating the new instance. This ensures that only one thread will create an instance as only one thread can be in that part of the code at a time - by the time another thread enters, the first thread will have created the instance. However there is a performance overhead as a lock is acquired every time the instance is requested.
 
 {% gist https://gist.github.com/sandeepkumar17/a79d2a10a31b88b8c97c6b0bfce9c04a %}
 
@@ -77,7 +77,7 @@ If you're implementing Singleton in .NET 4.0 (or higher versions), you can use 
   <img src="https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/summary.png" />
 </div>
  
-:bookmark_tabs: Singletons allow you to reuse code and control object states much easier.
+:bookmark_tabs: Singletons allow you to reuse code and control object states much more easily.
   
 :heavy_check_mark: We should go with Singleton only when exactly one instance is required.
   
@@ -90,7 +90,7 @@ If you're implementing Singleton in .NET 4.0 (or higher versions), you can use 
 :heavy_check_mark: However, if you want to go with lazy instantiation and don't want to use locks as well, then options 5 or 6 are good to go. But option 6 can be used in .Net 4.0 or higher versions.
 
 ## NOTE:
-If you have any comments or suggestions, please leave them behind in the comments section below and If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, please go directly to [blog repository](https://github.com/sandeepkumar17/td-dev.to) and open a new pull request with your changes.
+If you have any comments or suggestions, please leave them behind in the comments section below.
 
 ---
 _Originally published at [http://diary-techies.blogspot.com](https://diary-techies.blogspot.com/2014/04/singleton-design-pattern-in-c.html) on April 23, 2014._
