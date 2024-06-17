@@ -1,18 +1,6 @@
 [
   {
-    "id": 1099683,
-    "relativePathToArticle": "./blog-posts/dotnet-6-clean-architecture/dotnet-6-clean-architecture.md"
-  },
-  {
-    "id": 1109190,
-    "relativePathToArticle": "./blog-posts/singleton-design-pattern/singleton-design-pattern.md"
-  },
-  {
-    "id": 1117665,
-    "relativePathToArticle": "./blog-posts/dependency-Injection-pattern-and-ioc/dependency-Injection-pattern-and-ioc.md"
-  },
-  {
-    "id": 1181264,
-    "relativePathToArticle": "./blog-posts/grpc-server-and-client-implementation/grpc-server-and-client-implementation.md"
+    "id": 1132442,
+    "relativePathToArticle": "./blog-posts/api-authentication-using-jwt/api-authentication-using-jwt.md"
   }
 ]
