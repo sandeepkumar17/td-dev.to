@@ -1,6 +1,6 @@
 ---
 published: true
-title: '.NET 8.0 - JWT Token Authentication Using The Example API'
+title: '.NET 8.0 - Securing the API with JWT Bearer Token'
 cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/dotnet-8-jwt.jpg'
 description: 'Example of .NET 8.0 API using Clean Architecture to demonstrate the JWT Authentication mechanism.'
 tags: dotnet, api, security, programming
