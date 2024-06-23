@@ -123,4 +123,5 @@ Explain `Agile methodology` and its benefits.
 ```
 > #### Explore 30 Prompts related to [Project Management and Software Development Methodologies](https://dev.to/techiesdiary/chatgpt-prompts-for-project-management-and-software-development-methodologies-1j2f)
 
+---
 These are some of the examples of how ChatGPT can make a developer's life easy. Besides that, ChatGPT can also help with learning new concepts, understanding design patterns, code refactoring, brainstorming ideas, interview preparations, and much more.
