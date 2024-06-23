@@ -4,18 +4,6 @@
     "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-review-and-debugging.md"
   },
   {
-    "id": 1885446,
-    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-tdd-and-unit-testing.md"
-  },
-  {
-    "id": 1886808,
-    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-code-commenting.md"
-  },
-  {
-    "id": 1886811,
-    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-regular-expression.md"
-  },
-  {
     "id": 1897756,
     "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-project-mgmt-and-dev-methodologies.md"
   }
