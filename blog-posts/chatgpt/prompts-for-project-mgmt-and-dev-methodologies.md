@@ -65,5 +65,5 @@ Some commonly used software development methodologies include:
 | 9 | Explain the key principles and practices of the `Lean` software development methodology. |
 | 10 | How does the `Rapid Application Development (RAD)` methodology differ from other software development methodologies? |
 
----
+## NOTE:
 > [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)
