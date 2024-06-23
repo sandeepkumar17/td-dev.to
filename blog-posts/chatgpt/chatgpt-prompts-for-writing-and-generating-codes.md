@@ -68,10 +68,14 @@ Replace the words in `block` to get the desired result, for example, replace the
 | 51 | Write | Write a `language` script to connect to `database` and execute `operation`. | Write a NodeJS script to connect to SQLite and execute CRUD operation. |
 | 52 | Write | Write a `language` script to parse `file-format`, extract `information`, and store the data in `data structure` following these requirements: `requirements-list`. | Write a NodeJS script to parse CSV, extract data, and store the data in a table following these requirements: `Skip the header row`. |
 | 53 | Write | Write a `language` function to `calculate a mathematical concept` using `algorithm`. The function should take these inputs: `input-variables` and return `desired-output`. | Write a C# function to find the Fibonacci series of n using recursion. The function should take these inputs: `input-variables` and return `desired-output`. |
-| 54 | Write | Write a `language` function named `function name` that performs a `task`. | Write a Java function named `ToTitleCase` that converts the string into Title Case. |
+| 54 | Write | Write a `language` function named `function name` that performs a `task`. | Write a Java function named `ToTitleCase` that converts the string into a Title Case. |
 | 55 | Write | Write a `language` function to find the `n-th element` in a `data structure`. | Write a C# function to find the `n-th element` in a given array. |
 | 56 | Write | Please write a `language` function named `function name` to `task`. | Please write a C# function named CalculateFactorial to calculate the factorial. |
 | 57 | Write | Show me how to write a `language` function that performs `specific task`. | Show me how to write a C# function that performs logging into the database. |
 | 58 | Write | Write a `language` function for `specific algorithm/data structure`. | Write a JavaScript function for Array Rotation. |
 | 59 | Write | Write a program `task/algorithm` | Write a program to Check Whether a Character is a Vowel or Consonant |
 | 60 | Write | Write a program in `language` to `perform file operation` | Write a program in C# to check if the file exists. |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)
