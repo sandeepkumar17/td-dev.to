@@ -45,3 +45,7 @@ Boilerplate code often includes common tasks such as:
 | 13 | Create a basic `Django` project boilerplate code |
 | 14 | Create a basic `Flutter` widget test boilerplate code |
 | 15 | Create a basic `Flutter` stateful widget boilerplate code |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)
