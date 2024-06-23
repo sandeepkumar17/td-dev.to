@@ -67,3 +67,7 @@ Replace the words in `block` to get the desired result, for example, use your ch
 | 33 | Standard | Can you provide some tips on refactoring object-oriented code? |
 | 34 | Standard | I’d like to refactor this `C#` code to be more object-oriented, Any suggestions? <br /> `[Enter your code here]` |
 | 35 | Standard | How can I refactor this `C#` code to improve readability and align with `C# coding standards`? <br /> `[Enter your code here]` |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)
