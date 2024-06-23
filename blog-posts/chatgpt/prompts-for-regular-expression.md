@@ -46,3 +46,7 @@ The usage of regular expressions can vary depending on the context, but here are
 | 18 | What are some tips for optimizing regular expressions for better performance? |
 | 19 | What are some online resources or tools for testing and learning regular expressions? |
 | 20 | Can you explain the difference between greedy and lazy quantifiers in regular expressions? |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)

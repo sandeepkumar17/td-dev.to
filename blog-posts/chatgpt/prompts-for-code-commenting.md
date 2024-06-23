@@ -39,3 +39,7 @@ Code commenting is important for several reasons:
 | 13 | Add a code comment describing the intended use or expected behavior of a `specific class` or `object`. |
 | 14 | Add a comment to provide a high-level overview of the `code` or `module`.<br /> `[code snippet]` |
 | 15 | Add a comment to highlight any potential performance considerations or optimizations in the following code:<br /> `[code snippet]` |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)

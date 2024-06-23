@@ -43,6 +43,10 @@ canonical_url:
 | 17 | Can you share a real-world example where code optimization significantly improved the performance of an application? |
 | 18 | Can you explain the impact of code optimization on software scalability and discuss techniques for optimizing code for large-scale systems? |
 | 19 | Can you explain the concept of caching and how it can be used to improve code performance? |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)
 | 20 | Explain different caching strategies |
 | 21 | How to scale horizontally? |
 | 22 | Can you explain content delivery networks |

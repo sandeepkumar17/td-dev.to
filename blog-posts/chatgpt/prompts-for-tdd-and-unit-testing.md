@@ -82,3 +82,7 @@ The importance of test-driven development can be seen in several aspects:
 | 23 | Negative | Write a negative unit test case to check if a given string is not a valid email address.<br /> `Test Case: Input: "test@example", Expected Output: False` |
 | 24 | Negative | Write a negative unit test case to validate the behavior of a function that does not reverse a given string correctly.<br /> `Test Case: Input: "hello", Expected Output: "olleH" (Incorrect)` |
 | 25 | Negative | Write a negative unit test case to verify the functionality of a function that incorrectly checks if a list is empty.<br /> `Test Case: Input: [1, 2, 3], Expected Output: True (Incorrect)` |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)

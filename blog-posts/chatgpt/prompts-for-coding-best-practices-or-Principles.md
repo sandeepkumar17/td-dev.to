@@ -86,3 +86,7 @@ canonical_url:
 | 18 | How do you ensure the principle of `code simplicity` and avoid unnecessary complexity in your code? |
 | 19 | Can you discuss the principle of performance optimization and how it impacts the efficiency of your code? |
 | 20 | How do you ensure the principle of `scalability` in your code to handle growing demands and user base? |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)
