@@ -40,6 +40,10 @@
     "relativePathToArticle": "./blog-posts/tips-and-tricks/csharp-12-new-features.md"
   },
   {
+    "id": 1132442,
+    "relativePathToArticle": "./blog-posts/api-authentication-using-jwt/api-authentication-using-jwt.md"
+  },
+  {
     "id": 1856231,
     "relativePathToArticle": "./blog-posts/chatgpt/chatgpt-prompts-for-developers.md"
   },
@@ -82,5 +86,9 @@
   {
     "id": 1886811,
     "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-regular-expression.md"
+  },
+  {
+    "id": 1897756,
+    "relativePathToArticle": "./blog-posts/chatgpt/prompts-for-project-mgmt-and-dev-methodologies.md"
   }
 ]
