@@ -60,3 +60,7 @@ Replace the words in `block` to get the desired result, for example, use your ch
 | 38 | Security | Inspect the code for any security vulnerabilities and outline steps to remediate them. <br /> `[Enter your code here]` |
 | 39 | Security | Help identify any potential security issues in the following Java code related to cross-site scripting. <br /> `[Enter your code here]` |
 | 40 | Security | Scrutinize the code for any security weaknesses or loopholes and suggest measures to strengthen its security posture. <br /> `[Enter your code here]` |
+
+---
+## NOTE:
+> [Check here to review more prompts that can help the developers in their day-to-day life.](https://dev.to/techiesdiary/chatgpt-prompts-for-developers-216d)
