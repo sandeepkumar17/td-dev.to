@@ -8,7 +8,7 @@ series:
 canonical_url:
 ---
 
-In this article, we will learn about clean architecture and will walk you through a sample CRUD API in .NET 8.0.
+In this article, we will learn about clean architecture and walk you through a sample CRUD API in .NET 8.0.
 
 We will use the following tools, technologies, and frameworks in this sample:
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) and [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
@@ -59,7 +59,7 @@ Along with Dapper in this article, we will use Repository Pattern and Unit of Wo
 ## Solution and Project setup:
 First of all, create a new table that’ll be used to perform the CRUD operation. You can use the scripts shared under the `CleanArch.Sql/Scripts` folder of the code sample.
 
-Once our back end is ready, Open Visual Studio 2022 and create a blank solution project, and name it to `CleanArch`.
+Once our back end is ready, Open Visual Studio 2022 and create a blank solution project, and name it `CleanArch`.
 
 ![CleanArch Solution](./assets/ca_01.png 'CleanArch Solution')
 
@@ -149,7 +149,7 @@ Install-Package System.Data.SqlClient
 
 {% gist https://gist.github.com/sandeepkumar17/06b49b1404314df6fecd50a1e1575b80 %}
 
--	Configure Startup settings, such as RegisterServices (defined under `CleanArch.Infrastructure` project), configure log4net and add the Swagger UI (with authentication scheme).
+-	Configure Startup settings, such as RegisterServices (defined under `CleanArch.Infrastructure` project), configure log4net, and add the Swagger UI (with authentication scheme).
 
 {% gist https://gist.github.com/sandeepkumar17/b80c3cfb6f3280f496614ddb5bf01fc0 %}
 
@@ -223,7 +223,8 @@ Run the project and test all the CRUD API methods. (Make sure `CleanArch.Api` is
 ![API Delete](./assets/ca_19.png 'API Delete')
 
 ## NOTE:
+If you have any comments or suggestions, please leave them behind in the comments section below.
+
+---
 Check the source code here.
 {% github https://github.com/sandeepkumar17/CleanArch %}
-
-If you have any comments or suggestions, please leave them behind in the comments section below.
