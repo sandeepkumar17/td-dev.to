@@ -1,17 +1,17 @@
 ---
 published: true
-title: '.NET 6.0 - Clean Architecture using Repository Pattern and Dapper with Logging and Unit Testing'
+title: '.NET 8.0 - Clean Architecture using Repository Pattern and Dapper with Logging and Unit Testing'
 cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/net-core.png'
-description: 'Example of .NET6.0 CRUD API using Clean Architecture'
+description: 'Example of .NET 8.0 CRUD API using Clean Architecture using Dapper with Logging and Unit Testing'
 tags: csharp, api, dotnet, programming
 series:
 canonical_url:
 ---
 
-In this article, we will learn about clean architecture and will walk you through a sample CRUD API in .NET 6.0.
+In this article, we will learn about clean architecture and will walk you through a sample CRUD API in .NET 8.0.
 
 We will use the following tools, technologies, and frameworks in this sample:
-- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) and [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) and [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 -	[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 -	MS SQL DB
 -	[Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
@@ -54,7 +54,7 @@ So now we have an understanding of clean architecture. Before starting the sampl
 -	If DB is already designed, then using Dapper is an optimal and efficient option.
 -	Performance: Dapper is faster at querying data compared to the performance of the Entity Framework. This is because Dapper works directly with the RAW SQL and hence the time delay is relatively less.
 
-Along with Dapper in this article, we will use Repository Pattern and Unit of Work and show you how Dapper can be used in an ASP.NET 6.0 API following Repository Pattern and Unit of Work.
+Along with Dapper in this article, we will use Repository Pattern and Unit of Work and show you how Dapper can be used in an ASP.NET 8.0 API following Repository Pattern and Unit of Work.
 
 ## Solution and Project setup:
 First of all, create a new table that’ll be used to perform the CRUD operation. You can use the scripts shared under the `CleanArch.Sql/Scripts` folder of the code sample.
@@ -135,7 +135,7 @@ Install-Package System.Data.SqlClient
 
 {% gist https://gist.github.com/sandeepkumar17/0b2ec69c2abd0facdf0e8009290c90a6 %}
 
-**Set up API Project:**  Add a new .NET 6.0 Web API project and name it `CleanArch.Api`.
+**Set up API Project:**  Add a new .NET 8.0 Web API project and name it `CleanArch.Api`.
 
 ![CleanArch API 01](./assets/ca_07.png 'CleanArch API 01')
 ![CleanArch API 02](./assets/ca_08.png 'CleanArch API 02')
