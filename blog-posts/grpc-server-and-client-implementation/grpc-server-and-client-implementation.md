@@ -1,14 +1,14 @@
 ---
 published: true
-title: '.NET 6.0 - gRPC Server and Client implementation'
+title: '.NET 8.0 - gRPC Server and Client implementation'
 cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/gprc-dot-net-core.png'
-description: 'Example of 6 gRPC implementation using .NET Core 6.0'
+description: 'Example of gRPC implementation using .NET Core 8.0'
 tags: grpc, csharp, dotnet, programming
 series:
 canonical_url:
 ---
 
-In this article, we will learn about the basics of gRPC, its usage, and finally, implement the Server and Client using .NET Core 6.0.
+In this article, we will learn about the basics of gRPC and its usage and, finally, implement the Server and Client using .NET Core 8.0.
 
 ## gRPC explained:
 
@@ -18,14 +18,14 @@ In March 2015, Google decided to build the next version of Stubby and make it op
 - gRPC is a modern open-source high-performance Remote Procedure Call (RPC) framework.
 - It implements APIs using HTTP/2 which can run in any environment.
 - gRPC has two parts
-  - **gRPC Protocol** - As mentioned above it uses HTTP/2 which provides a lot of advantages over traditional Http1.x
+  - **gRPC Protocol** - As mentioned above it uses HTTP/2 which provides a lot of advantages over traditional HTTP1.x
   - **Data Serialization** - by default gRPC uses Protobuf for the serialization and as an intermediator between client and server.
 - gRPC clients and servers intercommunicate using a variety of environments and machines.
-- It supports many languages like Java, C#, Go, Ruby, and Python, check [the full list here](https://grpc.io/docs/languages/)
+- It supports many languages like Java, C#, Go, Ruby, and Python, check [the full list here](https://grpc.io/docs/languages/).
 - It supports pluggable auth, tracing, load balancing, and health checking.
 
 #### Different scenarios in which we use gRPC
-- When we use microservice architecture and we use that for internal communication from one or more servers.
+- When we use microservice architecture, and we use that for internal communication from one or more servers.
 - gRPC is handy when performance is on high priority with low latency.
 - It is useful when we require duplex communication between services with different types of data.
 - gRPC is useful in the last mile of distributed computing to connect devices, mobile applications, and browsers to backend services.
@@ -60,27 +60,25 @@ In March 2015, Google decided to build the next version of Stubby and make it op
 
 ### Prerequisites
 - Visual Studio 2022
-- .NET 6.0
+- .NET 8.0
 
 ### Set Up gRPC Service:
-- Open Visual Studio 2022 and create a new gRPC project with the name **GrpcCoreService** and select `.NET 6.0` under the Framework option.
+- Open Visual Studio 2022 and create a new gRPC project with the name **GrpcCoreService** and select `.NET 8.0` under the Framework option.
 ![Core Service Setup](./assets/gprc_01.png 'Core Service Setup')
 ![Core Service Setup](./assets/gprc_02.png 'Core Service Setup')
-![Core Service Setup](./assets/gprc_03.png 'Core Service Setup')
 - Review the default project folder structure.
   - **Protos:** contains all the gRPC server asset files, such as `greet.proto`
   - **Services:** Contains the implementation of the gRPC services.
-  - **Root Folder:** `appSettings.json` contains service the configuration and `Program.cs` contains code that configures app behavior.
+  - **Root Folder:** `appSettings.json` contains the service configuration and `Program.cs` contains code configuring app behavior.
 ![Folder Structure](./assets/gprc_04.png 'Folder Structure')
  
-- Right-click on the `greet.proto` and click on Properties and verify that gRPC Stub Classes is set to **Server only**.
+- Right-click on the `greet.proto` and click on Properties, and verify that gRPC Stub Classes is set to **Server only**.
 ![Proto_Prop](./assets/gprc_05.png 'Proto Properties')
  
 ### Set Up Client Application:
 - Add a Console App Project with the name **GrpcClientApp** and select the required configurations.
 ![Client Setup](./assets/gprc_06.png 'Client Setup')
 ![Client Setup](./assets/gprc_07.png 'Client Setup')
-![Client Setup](./assets/gprc_08.png 'Client Setup')
 - Add the required packages to the client app project.
   ```
   Install-Package Grpc.Net.Client
@@ -92,7 +90,7 @@ In March 2015, Google decided to build the next version of Stubby and make it op
   ```
   option csharp_namespace = "GrpcClientApp";
   ```
-- After that right click on `greet.proto` and click on **Properties** and set the gRPC Stub Classes to **Client only**.
+- After that right-click on `greet.proto` and click on **Properties**, and set the gRPC Stub Classes to **Client only**.
 ![Proto_Client_Prop](./assets/gprc_09.png 'Proto Client Properties')
 
 - Finally, edit the **GrpcClientApp.csproj** project file:
@@ -142,7 +140,7 @@ Now let's move ahead and set up a new service and client that consumes this new 
   ```
   option csharp_namespace = "GrpcClientApp";
   ```
-- After that right click on the `employee.proto` and click on **Properties** and set the gRPC Stub Classes to **Client only**
+- After that right-click on the `employee.proto` and click on **Properties** and set the gRPC Stub Classes to **Client only**
 - And make sure the proto file is added in the **GrpcClientApp.csproj** project file:
 
   ```
