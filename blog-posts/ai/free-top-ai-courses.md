@@ -1,8 +1,8 @@
 ---
 published: true
 title: 'FREE Top AI courses to improve your AI skills and boost your career'
-cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/di-collection-posts/assets/blog-cover/c-sharp.png'
-description: 'Understand about Const, readonly and static readonly and review the differences'
+cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/di-collection-posts/assets/blog-cover/ai-cover-page.jpeg'
+description: 'Top Free AI courses to improve your AI skills and boost your career'
 tags: ai, datascience, tensorflow, machinelearning
 series:
 canonical_url:
