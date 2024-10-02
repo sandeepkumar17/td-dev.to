@@ -1,8 +1,8 @@
 ---
 published: true
-title: 'FREE Top AI courses to improve your AI skills and boost your career'
+title: 'Top Free AI courses to improve your AI skills and elevate your career'
 cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/di-collection-posts/assets/blog-cover/ai-cover-page.jpeg'
-description: 'Top Free AI courses to improve your AI skills and boost your career'
+description: 'Top Free AI courses to improve your AI skills and leverage them to boost your career.
 tags: ai, datascience, machinelearning, deeplearning
 series:
 canonical_url:
