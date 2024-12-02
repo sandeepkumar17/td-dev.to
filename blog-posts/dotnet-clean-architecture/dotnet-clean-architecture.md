@@ -115,12 +115,14 @@ Once our back end is ready, Open Visual Studio 2022 and create a blank solution 
 ![CleanArch Infrastructure](./assets/ca_06.png 'CleanArch Infrastructure')
 
 -	Add the required packages to be used in this project.
+  
 ```
 Install-Package Dapper
 Install-Package Microsoft.Extensions.Configuration
 Install-Package Microsoft.Extensions.DependencyInjection.Abstractions
 Install-Package System.Data.SqlClient
 ```
+
 -	Add the reference to projects (`Application`, `Core`, and `Sql`), and add a new folder `Repository`.
 - After that let’s implement the `IContactRepository` interface, by creating a new class `ContactRepository` and injecting `IConfiguration` to get the connection string from `appsettings.json`
 
