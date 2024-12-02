@@ -18,13 +18,16 @@ JWT, or JSON Web Token, is an open standard (RFC 7519) for securely transmitting
 A JWT comprises three parts separated by dots (.): Header, Payload, and Signature.
 
 1. **Header:** The header typically consists of two parts: the type of token (JWT) and the signing algorithm (e.g., HMAC SHA256 or RSA).
+   
 ```
 {
   "alg": "HS256",
   "typ": "JWT"
 }
 ```
+
 2. **Payload:** The payload contains the claims. Claims are statements about an entity (typically, the user) and additional data. There are three types of claims: registered, public, and private claims.
+   
 ```
 {
   "sub": "1234567890",
@@ -32,6 +35,7 @@ A JWT comprises three parts separated by dots (.): Header, Payload, and Signatur
   "admin": true
 }
 ```
+
 3. **Signature:** To create the signature part, you have to take the encoded header, the encoded payload, a secret, and the algorithm specified in the header, and sign that.
 
 ```
@@ -55,9 +59,11 @@ Here's a step-by-step explanation of how JWT Bearer Token authentication typical
 2. **Server Verification:** The server verifies the credentials. The server creates a JWT with the user's information if they are correct.
 3. **Token Issuance:** The server sends the JWT back to the client. This token is stored on the client side, usually in local storage or a cookie.
 4. **Subsequent Requests:** For each subsequent request, the client includes the JWT in the Authorization header as a Bearer token.
+
 ```
 Authorization: Bearer <token>
 ```
+
 5. **Token Verification:** The server verifies the token's signature and checks the token's validity (expiration time, issuer, etc.). If valid, the server processes the request. If not, it returns an unauthorized error.
 
 ## JWT Implementation Example:
@@ -78,12 +84,14 @@ Once our back end is ready, Open Visual Studio 2022 and setup the required proje
 
 **Set Up Infrastructure Layer:** Add a new Class Library Project and name it `AuthDemo.Infrastructure`.
 -	Add the required packages to be used in this project.
+
 ```
 Install-Package Dapper
 Install-Package Microsoft.Extensions.Configuration
 Install-Package Microsoft.Extensions.DependencyInjection.Abstractions
 Install-Package System.Data.SqlClient
 ```
+
 -	Add the reference to projects (`Application`, and `Core`), and add a new folder `Repository`.
 - After that let’s implement the `IUserRepository` interface, by creating a new class `UserRepository`.
 - Also, implement the `IUnitOfWork` interface, by creating a new class `UnitOfWork`
@@ -92,6 +100,7 @@ Install-Package System.Data.SqlClient
 
 **Set up API Project:**  Add a new .NET 8.0 Web API project and name it `AuthDemoApi`.
 -	Add the reference to projects (`Application`, and `Infrastructure`), and add the below packages.
+
 ```
 Install-Package Swashbuckle.AspNetCore
 Install-Package Microsoft.IdentityModel.Protocols
@@ -99,20 +108,25 @@ Install-Package System.IdentityModel.Tokens.Jwt
 Install-Package Microsoft.IdentityModel.JsonWebTokens
 Install-Package Microsoft.AspNetCore.Authentication.JwtBearer
 ```
+
 -	Set up the `appsettings.json` file to manage the API settings and replace your DB connection string under the `ConnectionStrings` section.
+
 ```
 "ConnectionStrings": {
   //Update values in the connection string.
   "DBConnection": "Data Source=localhost\\SQLEXPRESS; Initial Catalog=AuthDemoDB; Trusted_Connection=True;MultipleActiveResultSets=true"
 }
 ```
+
 - Add a secret key to verify and sign the JWT tokens.
+
 ```
 "AppSettings": {
   //Replace it with your secret key to verify and sign the JWT tokens, It can be any string.
   "Secret": "8c8624e2-2afc-76a5-649e-9b9bf15cf6d3"
 }
 ```
+
 -	Configure Startup settings, such as RegisterServices (defined under the `AuthDemo.Infrastructure` project), and add the Swagger UI (with `Bearer` as the authentication scheme).
 
 -	Remove the default controller/model classes and add two classes (`AuthenticateRequest` and `AuthenticateResponse`) under the Model folder, to handle API requests and responses.
