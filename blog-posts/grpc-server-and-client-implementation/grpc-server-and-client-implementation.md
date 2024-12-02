@@ -80,25 +80,31 @@ In March 2015, Google decided to build the next version of Stubby and make it op
 ![Client Setup](./assets/gprc_06.png 'Client Setup')
 ![Client Setup](./assets/gprc_07.png 'Client Setup')
 - Add the required packages to the client app project.
+
   ```
   Install-Package Grpc.Net.Client
   Install-Package Google.Protobuf
   Install-Package Grpc.Tools
   ```
+  
 - Create a **Protos** folder and copy the `Protos\greet.proto` file from the **GrpcCoreService** under this folder.
 - Update the namespace inside the `greet.proto` file to the project's namespace:
-  ```
+
+   ```
   option csharp_namespace = "GrpcClientApp";
   ```
+
 - After that right-click on `greet.proto` and click on **Properties**, and set the gRPC Stub Classes to **Client only**.
 ![Proto_Client_Prop](./assets/gprc_09.png 'Proto Client Properties')
 
 - Finally, edit the **GrpcClientApp.csproj** project file:
+
   ```
   <ItemGroup>
     <Protobuf Include="Protos\greet.proto" GrpcServices="Client" />
   </ItemGroup>
   ```
+
 - Once this is completed update the `Program.cs` file to call the greeter service.
  
 {% gist https://gist.github.com/sandeepkumar17/6d3d840380b8e545ede3c978e9de76d8 %}
@@ -140,6 +146,7 @@ Now let's move ahead and set up a new service and client that consumes this new 
   ```
   option csharp_namespace = "GrpcClientApp";
   ```
+  
 - After that right-click on the `employee.proto` and click on **Properties** and set the gRPC Stub Classes to **Client only**
 - And make sure the proto file is added in the **GrpcClientApp.csproj** project file:
 
@@ -149,6 +156,7 @@ Now let's move ahead and set up a new service and client that consumes this new 
     <Protobuf Include="Protos\employee.proto" GrpcServices="Client" />
   </ItemGroup>
   ```
+  
 - Finally, update the `Program.cs` file to call the `employee` service.
 
 {% gist https://gist.github.com/sandeepkumar17/0a0d6e947989a7d499ddc15ac4fe0e98 %}
