@@ -1,15 +1,12 @@
 ---
 published: true
-title: 'The Future of .NET in the AI Era: Why .NET Developers Are Still Relevant'
+title: 'The Future of .NET in the AI Era: From Traditional Backend Development to Intelligent Enterprise Applications'
 cover_image: 'https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/master/assets/blog-cover/ai-and-dotnet.png'
 description: 'The Future of .NET in the AI Era: Why .NET Developers Are Still Relevant'
 tags: ai, dotnet, programming, csharp
 series:
 canonical_url:
 ---
-
-
-# The Future of .NET in the AI Era: From Traditional Backend Development to Intelligent Enterprise Applications
 
 *How .NET developers can build on the skills they already have to create practical, secure, AI-powered enterprise systems.*
 
@@ -126,7 +123,9 @@ For example, an enterprise workflow might:
 
 Microsoft Agent Framework provides capabilities for building agents and workflows, including model integrations and connections to MCP servers.
 
-> **Agents are useful, but I would not make every workflow agentic. If the path is already known—validate input, call two services, request approval, and update a record—a deterministic workflow is usually easier to test, operate, and audit. Agentic behavior makes more sense when the system must interpret an ambiguous request, choose from several legitimate tools, or adapt the sequence based on intermediate results.**
+> **Agents are useful, but I would not make every workflow agentic. If the path is already known—validate input, call two services, request approval, and update a record—a deterministic workflow is usually easier to test, operate, and audit.**
+>
+> **Agentic behavior makes more sense when the system must interpret an ambiguous request, choose from several legitimate tools, or adapt the sequence based on intermediate results.**
 
 ### Model Context Protocol (MCP)
 
